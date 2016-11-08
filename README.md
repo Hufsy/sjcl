@@ -7,6 +7,15 @@ sjcl
 
 Stanford Javascript Crypto Library
 
+Hufsy
+====
+This is custom sjcl build with only scrypt and AES-GCM included.
+Build instructions:
+```
+configure --without-all --with-aes --with-scrypt --with-gcm
+make sjcl.js tidy
+```
+
 Security Advisories
 ===
 
@@ -14,9 +23,9 @@ Security Advisories
 
 Security Contact
 ====
-Security Mail: sjcl@ovt.me  
-OpenPGP-Key Fingerprint: 0D54 3E52 87B4 EC06 3FA9 0115 72ED A6C7 7AAF 48ED  
-Keyserver: pool.sks-keyservers.net  
+Security Mail: sjcl@ovt.me
+OpenPGP-Key Fingerprint: 0D54 3E52 87B4 EC06 3FA9 0115 72ED A6C7 7AAF 48ED
+Keyserver: pool.sks-keyservers.net
 
 Upgrade Guide
 ====
